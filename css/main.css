@@ -1207,7 +1207,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff0;
+  background: #fffaa4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2719,5 +2719,13 @@ ul.breadcrumb li + li:last-child {
   }
   .pagination {
     margin: 8px 0 0;
+  }
+}
+.site-meta {
+  background-image: url("/images/log-big.jpg");
+}
+@media (min-width: 992px) {
+  .site-meta {
+    background-image: url("/images/log-small.jpg");
   }
 }
