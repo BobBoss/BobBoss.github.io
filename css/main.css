@@ -1207,7 +1207,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff44d6;
+  background: #14c960;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2747,4 +2747,18 @@ ul.breadcrumb li + li:last-child {
   .site-meta {
     background-image: url("/images/log-small.jpg");
   }
+}
+body {
+  background: url("https://source.unsplash.com/random/1600x900?wallpapers");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.main-inner {
+  background: #fff w;
+  opacity: 1;
+}
+.header-inner {
+  opacity: 1;
 }
