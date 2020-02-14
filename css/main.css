@@ -1207,7 +1207,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #14c960;
+  background: #ffffac;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2749,7 +2749,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900?wallpapers");
+  background: url("/images/newliabary.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2757,7 +2757,7 @@ body {
 }
 .main-inner {
   background: #fff w;
-  opacity: 1;
+  opacity: 0.9;
 }
 .header-inner {
   opacity: 1;
