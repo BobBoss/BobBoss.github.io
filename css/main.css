@@ -1207,7 +1207,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffac;
+  background: #c1fcdf;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2747,18 +2747,4 @@ ul.breadcrumb li + li:last-child {
   .site-meta {
     background-image: url("/images/log-small.jpg");
   }
-}
-body {
-  background: url("/images/newliabary.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-}
-.main-inner {
-  background: #fff w;
-  opacity: 0.9;
-}
-.header-inner {
-  opacity: 1;
 }
