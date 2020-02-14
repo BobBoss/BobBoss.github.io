@@ -8,7 +8,7 @@
       <link href="/2020/02/14/debug/"/>
       <url>/2020/02/14/debug/</url>
       
-        <content type="html"><![CDATA[<p>debug</p>]]></content>
+        <content type="html"><![CDATA[<ol><li><p>hexo init 新建hexo</p></li><li><p>下载nexT主题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure></li><li><p>修改配置文件</p></li><li><p>站点配置文件需要和主题配置文件同步修改，不能先修改站点配置文件</p></li></ol>]]></content>
       
       
       
