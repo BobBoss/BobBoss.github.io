@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>update</title>
-      <link href="/2020/02/15/update/"/>
-      <url>/2020/02/15/update/</url>
+      <title>学习</title>
+      <link href="/2020/03/10/%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2020/03/10/%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<p>debug</p>]]></content>
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="33b84596c9bede7e3d3b5d94466df502670e93bc89f281f8e9d98d25ef14de75">803d27511ee0ba34c70de2bc019e05b3ab47c5879ab52810160dfd7b66c16f784093536650330ad39481ef441a42eff284d67f1d96f559bfa0bd9c398e44982a5ba12297e53caf185abca7a5d91dca62be86fe4932a41c92e8cf2565242760eb</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
           
-          <category> hexo </category>
+          <category> 日常 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexoDev </tag>
+            <tag> 日常学习 </tag>
             
         </tags>
       
@@ -33,19 +33,19 @@
       <link href="/2020/02/13/user/"/>
       <url>/2020/02/13/user/</url>
       
-        <content type="html"><![CDATA[<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p><img src="/2020/02/13/user/bobboss.png" class="" title="BobBoss"><a id="more"></a><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">当资源文件管理功能打开后，Hexo将会在你每一次通过 hexo new [layout] <span class="xml"><span class="tag">&lt;<span class="name">title</span>&gt;</span></span> 命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个 markdown 文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">正确的引用图片方式是使用下列的标签插件而不是 markdown ：</span><br><span class="line"></span><br><span class="line">&#123;%asset_img example.jpg This is an example image %&#125;</span><br></pre></td></tr></table></figure><p>如果是后来才打开此功能的，可以自己新建一个与md同名的文件夹，把图片放进去，然后按照文档所给的格式引用图片即可。</p><img src="/2020/02/13/user/bobboss.png" class="" title="BobBoss">]]></content>
+        <content type="html"><![CDATA[<img src="/2020/02/13/user/bobboss.png" class="" title="BobBoss"><a id="more"></a><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">根目录下的<span class="emphasis">_config.yml文件中post_</span>asset_folder: false设置为true，以此打开文章资源文件夹功能；</span><br><span class="line"></span><br><span class="line">当资源文件管理功能打开后，Hexo将会在你每一次通过 hexo new [layout] <span class="xml"><span class="tag">&lt;<span class="name">title</span>&gt;</span></span> 命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个 markdown 文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">正确的引用图片方式是使用下列的标签插件而不是 markdown ：</span><br><span class="line"></span><br><span class="line">&#123;%asset_img example.jpg This is an example image %&#125;</span><br></pre></td></tr></table></figure><p>如果是后来才打开此功能的，可以自己新建一个与md同名的文件夹，把图片放进去，然后按照文档所给的格式引用图片即可。</p><img src="/2020/02/13/user/bobboss.png" class="" title="BobBoss">]]></content>
       
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo学习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexoDev </tag>
+            <tag> hexo </tag>
             
         </tags>
       
@@ -63,28 +63,9 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo学习 </category>
           
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexoDev </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>debug</title>
-      <link href="/2020/02/12/debug/"/>
-      <url>/2020/02/12/debug/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p>hexo init 新建hexo</p></li><li><p>下载nexT主题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure></li><li><p>修改配置文件</p></li><li><p>站点配置文件需要和主题配置文件同步修改，不能先修改站点配置文件</p></li></ol>]]></content>
-      
       
       
         <tags>
@@ -107,14 +88,14 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo学习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexoDev </tag>
+            <tag> hexo </tag>
             
         </tags>
       
@@ -132,14 +113,14 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo学习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexoDev </tag>
+            <tag> hexo </tag>
             
         </tags>
       
