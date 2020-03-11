@@ -1207,7 +1207,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6786f1;
+  background: #ebbdff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2751,7 +2751,7 @@ ul.breadcrumb li + li:last-child {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("https://source.unsplash.com/daily?snow,water");
+  background: url("https://source.unsplash.com/daily?sakura,flower");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
