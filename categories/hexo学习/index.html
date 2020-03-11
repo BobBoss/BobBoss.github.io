@@ -123,12 +123,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">3</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">7</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">2</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
@@ -205,6 +205,27 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
+              datetime="2020-03-11T21:25:48+08:00"
+              content="2020-03-11">
+          03-11
+        </time>
+      </div>
+      
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/2020/03/11/tagscloud/" itemprop="url">
+            <span itemprop="name">标签云</span>
+          </a>
+      </h2>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
               datetime="2020-03-11T19:21:27+08:00"
               content="2020-03-11">
           03-11
@@ -235,28 +256,7 @@
 
       <h2 class="post-title">
           <a class="post-title-link" href="/2020/02/13/user/" itemprop="url">
-            <span itemprop="name">博主</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-02-12T22:54:31+08:00"
-              content="2020-02-12">
-          02-12
-        </time>
-      </div>
-      
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/02/12/thirdblogtest/" itemprop="url">
-            <span itemprop="name">thirdblogtest</span>
+            <span itemprop="name">博客中添加图片</span>
           </a>
       </h2>
 
@@ -361,10 +361,14 @@
         </li>
       </ul>
 
+
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
       </div>
       <!--/noindex-->
+
+     
+
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -385,13 +389,13 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -420,13 +424,31 @@
         </li>
     </ul>
   </div>
-
+           
       </div>
+
+        <!--添加标签云-->
+        
+          <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+          <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+          <div class="widget-wrap">
+            <div>标签云</div>
+            <div id="myCanvasContainer" class="widget tagcloud">
+              <canvas width="250" height="250" id="resCanvas" style="width=100%">
+              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoDemo/" rel="tag">hexoDemo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoSakura/" rel="tag">hexoSakura</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E4%BC%98%E5%8C%96/" rel="tag">hexo优化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E5%9B%BE%E7%89%87/" rel="tag">hexo图片</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E6%A0%87%E7%AD%BE%E4%BA%91/" rel="tag">hexo标签云</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E7%89%B9%E6%95%88/" rel="tag">hexo特效</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" rel="tag">日常学习</a><span class="tag-list-count">1</span></li></ul>
+              </canvas>
+            </div>
+         </div>
+        
+      
+<!--添加访客地球-->
+<!--<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=50asv2r2nxy&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script> -->
         <div class="back-to-top motion-element">
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
         </div>
 
+       
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -455,13 +477,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">69k</span>
+    <span title="站点总字数">71k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:03</span>
+    <span title="站点阅读时长">1:04</span>
 </div>
 
         
