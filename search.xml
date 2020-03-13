@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Google收录博客</title>
+      <link href="/2020/03/14/Google%E6%94%B6%E5%BD%95%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/03/14/Google%E6%94%B6%E5%BD%95%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>在不绑定自己域名的情况下，使Google浏览器收录自己的博客。</p><a id="more"></a><h4 id="1-安装sitemap插件"><a href="#1-安装sitemap插件" class="headerlink" title="1. 安装sitemap插件"></a>1. 安装sitemap插件</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure><h4 id="2-修改博客根目录下的”-config-yml”"><a href="#2-修改博客根目录下的”-config-yml”" class="headerlink" title="2. 修改博客根目录下的”_config.yml”"></a>2. 修改博客根目录下的”_config.yml”</h4><h5 id="2-1-修改URL"><a href="#2-1-修改URL" class="headerlink" title="2.1 修改URL"></a>2.1 修改URL</h5><p>将自己博客首页地址加在”url:”后</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://BobBoss.github.io</span>                  </span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br></pre></td></tr></table></figure><h5 id="2-2-文件最后添加站点文件"><a href="#2-2-文件最后添加站点文件" class="headerlink" title="2.2  文件最后添加站点文件"></a>2.2  文件最后添加站点文件</h5><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure><h4 id="3-执行部署命令"><a href="#3-执行部署命令" class="headerlink" title="3.执行部署命令"></a>3.执行部署命令</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p>在根目录下的\public文件夹下新增sitemap.xml文件</p><h4 id="4-google-site-verification修改"><a href="#4-google-site-verification修改" class="headerlink" title="4.google_site_verification修改"></a>4.google_site_verification修改</h4><p>在主题配置文件”_config.yml”中，修改如下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">google_site_verification:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h4 id="5-谷歌站点验证"><a href="#5-谷歌站点验证" class="headerlink" title="5.谷歌站点验证"></a>5.谷歌站点验证</h4><h5 id="5-1-博客站点所有权验证"><a href="#5-1-博客站点所有权验证" class="headerlink" title="5.1 博客站点所有权验证"></a>5.1 博客站点所有权验证</h5><p>进入<a href="https://search.google.com/search-console/welcome?hl=zh-CN" target="_blank" rel="noopener">谷歌搜索控制台 </p><p>通过第二项的  网址前缀  进行验证，输入 博客首页地址“https://BobBoss.github.io” ，点击继续，验证方式选择“HTML标记”验证，复制元标记以备后用，现在不能点击验证。</p><h5 id="5-2-head-swig文件修改"><a href="#5-2-head-swig文件修改" class="headerlink" title="5.2  head.swig文件修改"></a>5.2  head.swig文件修改</h5><p>在themes\next\layout_partials\head\head.swig中找到</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.google_site_verification %&#125;</span><br><span class="line">  &lt;meta name&#x3D;&quot;google-site-verification&quot; content&#x3D;&quot;OMyE84I507yQFXA-F4YdK3BfW9DLMeR423WB0GLnRnU&quot; &#x2F;&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><p>content=”之前复制的元标记”。</p><p>然后执行部署命令，部署到GitHub仓库中，查看index.html中的<head>内是否有验证标签，如果有，回到谷歌站点的验证页面点击验证。</p><h5 id="5-3-提交谷歌站点地图"><a href="#5-3-提交谷歌站点地图" class="headerlink" title="5.3 提交谷歌站点地图"></a>5.3 提交谷歌站点地图</h5><p>进入谷歌站点，提交站点地图，即提交之前生成的sitemap.xml，点击提交，等待谷歌收录。</p><p>在谷歌浏览器中,输入”site:bobboss.github.io”,查看结果。</p><h4 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h4><p>1.<a href="https://blog.csdn.net/fzhhsa/article/details/89839885" target="_blank" rel="noopener">hexo个人博客收录谷歌</p><p>2.<a href="https://luanzhuxian.github.io/post/82d92ad4.html" target="_blank" rel="noopener">Hexo + Next主题博客提交百度谷歌收录</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客收录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签云</title>
       <link href="/2020/03/11/tagscloud/"/>
       <url>/2020/03/11/tagscloud/</url>
