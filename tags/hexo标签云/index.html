@@ -79,6 +79,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="BobBoss Blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -130,7 +131,7 @@
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">4</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
@@ -141,6 +142,11 @@
         <li class="menu-item menu-item-dairy">
 
     <a href="/dairy/" rel="section"><i class="fa fa-fw fa-pencil"></i>日记</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>站点地图</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -219,7 +225,7 @@
       
 
       <h3 class="post-title">
-          <a class="post-title-link" href="/2020/03/11/tagscloud/" itemprop="url">
+          <a class="post-title-link" href="/posts/14b0b17.html" itemprop="url">
             <span itemprop="name">标签云</span>
           </a>
       </h3>
@@ -311,7 +317,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -395,14 +401,44 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">72k</span>
+    <span title="站点总字数">69k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:05</span>
+    <span title="站点阅读时长">1:03</span>
 </div>
+
+<!--blog running time-->
+<div id="days"></div>
+<script>
+function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("02/12/2020 22:22:22");
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+    document.getElementById('days').innerHTML="博客已运行 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+}
+function setzero(i) {
+    if (i<10) {
+        i="0" + i
+    };
+    return i;
+}
+show_date_time();
+</script>
+<!--blog running time-->
 
         
 <div class="busuanzi-count">
@@ -501,7 +537,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       notify     : false,
       appId      : 'Ua1KiVglC0IEygQA0sPL66e5-gzGzoHsz',
       appKey     : '3Ak5cGQKvePTQCOodgCNRvQE',
-      placeholder: "请写下你的评论吧！",
+      placeholder: "✍请写下你的评论吧👍！",
       avatar     : 'monsterid',
       meta       : guest,
       pageSize   : '10' || 10,
