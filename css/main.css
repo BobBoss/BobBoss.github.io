@@ -768,7 +768,7 @@ pre .javascript .function {
 .post-body .note h4,
 .post-body .note h5,
 .post-body .note h6 {
-  margin-top: 0;
+  margin-top: 3px;
   border-bottom: initial;
   margin-bottom: 0;
   padding-top: 0;
@@ -791,6 +791,16 @@ pre .javascript .function {
 .post-body .note img:last-child {
   margin-bottom: 0;
 }
+.post-body .note:not(.no-icon) {
+  padding-left: 45px;
+}
+.post-body .note:not(.no-icon)::before {
+  font-family: 'FontAwesome';
+  font-size: larger;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+}
 .post-body .note.default {
   border-left-color: #777;
 }
@@ -799,6 +809,10 @@ pre .javascript .function {
 .post-body .note.default h4,
 .post-body .note.default h5,
 .post-body .note.default h6 {
+  color: #777;
+}
+.post-body .note.default:not(.no-icon)::before {
+  content: "\f0a9";
   color: #777;
 }
 .post-body .note.primary {
@@ -811,6 +825,10 @@ pre .javascript .function {
 .post-body .note.primary h6 {
   color: #6f42c1;
 }
+.post-body .note.primary:not(.no-icon)::before {
+  content: "\f055";
+  color: #6f42c1;
+}
 .post-body .note.info {
   border-left-color: #428bca;
 }
@@ -819,6 +837,10 @@ pre .javascript .function {
 .post-body .note.info h4,
 .post-body .note.info h5,
 .post-body .note.info h6 {
+  color: #428bca;
+}
+.post-body .note.info:not(.no-icon)::before {
+  content: "\f05a";
   color: #428bca;
 }
 .post-body .note.success {
@@ -831,6 +853,10 @@ pre .javascript .function {
 .post-body .note.success h6 {
   color: #5cb85c;
 }
+.post-body .note.success:not(.no-icon)::before {
+  content: "\f058";
+  color: #5cb85c;
+}
 .post-body .note.warning {
   border-left-color: #f0ad4e;
 }
@@ -841,6 +867,10 @@ pre .javascript .function {
 .post-body .note.warning h6 {
   color: #f0ad4e;
 }
+.post-body .note.warning:not(.no-icon)::before {
+  content: "\f06a";
+  color: #f0ad4e;
+}
 .post-body .note.danger {
   border-left-color: #d9534f;
 }
@@ -849,6 +879,10 @@ pre .javascript .function {
 .post-body .note.danger h4,
 .post-body .note.danger h5,
 .post-body .note.danger h6 {
+  color: #d9534f;
+}
+.post-body .note.danger:not(.no-icon)::before {
+  content: "\f056";
   color: #d9534f;
 }
 .pagination .prev,
@@ -1208,7 +1242,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cc9ec6;
+  background: #ff2571;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1513,14 +1547,14 @@ pre .javascript .function {
   }
 }
 .back-to-top {
-  background: #222;
+  background: #4f2dc7;
   bottom: -100px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   left: 30px;
-  opacity: 0.6;
+  opacity: 0.9;
   padding: 0 6px;
   position: fixed;
   text-align: center;
@@ -1729,6 +1763,10 @@ pre .javascript .function {
 }
 .posts-expand {
   padding-top: 20px;
+}
+.posts-expand .post-block {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 @media (max-width: 767px) {
   .posts-expand {
@@ -2434,6 +2472,7 @@ ul.breadcrumb li + li:last-child {
 .site-subtitle {
   font-weight: initial;
   margin: 10px 10px 0;
+  color: #fff;
 }
 .custom-logo-image {
   margin-top: 20px;
@@ -2629,18 +2668,20 @@ ul.breadcrumb li + li:last-child {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   padding: 40px;
+  margin-top: 10px;
 }
 .post-block + .post-block {
   border-radius: 15px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
-  margin-top: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .comments {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin: auto;
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 40px;
 }
 .tabs-comment {
@@ -2754,11 +2795,11 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-meta {
-  background-image: url("/images/log-big.jpg");
+  background-image: url("/images/reading-big.jpg");
 }
 @media (min-width: 992px) {
   .site-meta {
-    background-image: url("/images/log-small.jpg");
+    background-image: url("/images/reading-small.jpg");
   }
 }
 .posts-expand .post {

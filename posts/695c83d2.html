@@ -19,7 +19,19 @@
   <link rel="stylesheet" href="/lib/pace/pace-theme-center-atom.min.css">
   <script src="/lib/pace/pace.min.js"></script>
 
+<!--添加Daovoice-->
 
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/06fc04cb.js","daovoice")
+
+daovoice('init', {
+  app_id: "06fc04cb"
+});
+daovoice('update');
+
+</script>
+
+
+<!--添加Daovoice-->
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -34,7 +46,7 @@
 <meta property="og:description" content="用于 hexo + nexT 开发测试">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-02-12T06:45:26.000Z">
-<meta property="article:modified_time" content="2020-03-14T18:41:22.827Z">
+<meta property="article:modified_time" content="2020-03-15T19:00:29.276Z">
 <meta property="article:author" content="BobBoss">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="hexo优化">
@@ -130,7 +142,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">9</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">10</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -140,7 +152,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">7</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">8</span></a>
 
   </li>
         <li class="menu-item menu-item-dairy">
@@ -239,7 +251,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-15 02:41:22" itemprop="dateModified" datetime="2020-03-15T02:41:22+08:00">2020-03-15</time>
+                <time title="修改时间：2020-03-16 03:00:29" itemprop="dateModified" datetime="2020-03-16T03:00:29+08:00">2020-03-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -283,14 +295,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.5k</span>
+              <span>4.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -305,11 +317,11 @@
         <p>用于 hexo + nexT 开发测试</p>
 <a id="more"></a>
 
-<h1 id="1-评论"><a href="#1-评论" class="headerlink" title="1.评论"></a>1.评论</h1><h2 id="1-添加评论"><a href="#1-添加评论" class="headerlink" title="1. 添加评论"></a>1. 添加评论</h2><p>注册LeanCloud账号，新建应用，获取AppID和AppKey，在主题配置文件中配置”valine“，即可实现评论功能，数据上传至LeanCloud新建应用“存储”中，可在后台管理中进行数据管理。</p>
-<h2 id="2-删除评论"><a href="#2-删除评论" class="headerlink" title="2.删除评论"></a>2.删除评论</h2><p>在LeanCloud新建应用“存储”中，可在后台管理中进行数据管理，进行评论的删除。</p>
+<h1 id="1-评论"><a href="#1-评论" class="headerlink" title="1. 评论"></a>1. 评论</h1><h2 id="1-1-添加评论"><a href="#1-1-添加评论" class="headerlink" title="1.1 添加评论"></a>1.1 添加评论</h2><p>注册LeanCloud账号，新建应用，获取AppID和AppKey，在主题配置文件中配置”valine“，即可实现评论功能，数据上传至LeanCloud新建应用“存储”中，可在后台管理中进行数据管理。</p>
+<h2 id="1-2-删除评论"><a href="#1-2-删除评论" class="headerlink" title="1.2 删除评论"></a>1.2 删除评论</h2><p>在LeanCloud新建应用“存储”中，可在后台管理中进行数据管理，进行评论的删除。</p>
 <p>也可进行其他配置。</p>
 <p>也可进行其他配置。</p>
-<h1 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h1><h2 id="1-symbols-count-time"><a href="#1-symbols-count-time" class="headerlink" title="1.symbols_count_time:"></a>1.symbols_count_time:</h2><p>256行</p>
+<h1 id="2-字符统计时间"><a href="#2-字符统计时间" class="headerlink" title="2. 字符统计时间"></a>2. 字符统计时间</h1><p>256行</p>
 <p>在站点配置文件中添加</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#wordcount</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
@@ -318,7 +330,7 @@
 
 
 
-<h2 id="2-related-posts"><a href="#2-related-posts" class="headerlink" title="2.related_posts:"></a>2.related_posts:</h2><p>290行</p>
+<h1 id="3-相关文章"><a href="#3-相关文章" class="headerlink" title="3. 相关文章"></a>3. 相关文章</h1><p>290行</p>
 <p>在站点根目录中执行以下命令安装依赖：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
 
@@ -326,14 +338,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes\next_config.ymlrelated_posts:  enable: true  title: # custom header, leave empty to use the default one  display_in_home: false  params:    maxCount: 5</span><br></pre></td></tr></table></figure>
 
 <p>此时会在每篇文章结尾根据标签相关性和内容相关性来推荐相关文章。</p>
-<p>&lt;&gt;</p>
-<h2 id="3-post-edit"><a href="#3-post-edit" class="headerlink" title="3.post_edit:"></a>3.post_edit:</h2><p>303行</p>
+<h1 id="4-文章编辑"><a href="#4-文章编辑" class="headerlink" title="4. 文章编辑"></a>4. 文章编辑</h1><p>303行</p>
 <p>在主题配置文件下，如下配置</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_edit:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://github.com/BobBoss/BobBoss.github.io/tree/master/2020/02/12</span> <span class="comment"># Link for view source</span></span><br></pre></td></tr></table></figure>
 
-
-
-<h2 id="4-local-search"><a href="#4-local-search" class="headerlink" title="4.local_search:"></a>4.local_search:</h2><p>755行</p>
+<p>现在编辑不成功，现在没使用 文章编辑功能。</p>
+<h1 id="5-站内搜索"><a href="#5-站内搜索" class="headerlink" title="5. 站内搜索"></a>5. 站内搜索</h1><p>755行</p>
 <p>现在站点目录下执行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
 
@@ -342,18 +352,18 @@
 
 
 
-<h2 id="5-动画"><a href="#5-动画" class="headerlink" title="5.动画"></a>5.动画</h2><p>[]: <a href="https://github.com/theme-next/hexo-generator-searchdb" target="_blank" rel="noopener">https://github.com/theme-next/hexo-generator-searchdb</a>    “动画插件安装”</p>
+<h1 id="6-动画"><a href="#6-动画" class="headerlink" title="6. 动画"></a>6. 动画</h1><p>[]: <a href="https://github.com/theme-next/hexo-generator-searchdb" target="_blank" rel="noopener">https://github.com/theme-next/hexo-generator-searchdb</a>    “动画插件安装”</p>
 <p>6.自定义头部图片</p>
 <p>在/root/sorce/ 建立“_data”文件夹，在其中建立“styles.styl”文件，添加</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.site-meta &#123;</span><br><span class="line">  background-image: url(<span class="regexp">/images/</span>log-big.jpg);</span><br><span class="line">  @media(min-width: <span class="number">992</span>px)&#123;</span><br><span class="line">  	background-image: url(<span class="regexp">/images/</span>log-small.jpg);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>log-big.jpg也可以是其他名字。<code>log-big.jpg</code>的大小为<code>992×112</code>，<code>log-small.jpg</code>的大小为<code>240×112</code>，大了只能显示部分，小了可以重复铺满。</p>
-<h2 id="6-文章置顶"><a href="#6-文章置顶" class="headerlink" title="6.文章置顶"></a>6.文章置顶</h2><p>根据top数值排序，越大越往上</p>
-<h2 id="7-中英文之间自动添加空格"><a href="#7-中英文之间自动添加空格" class="headerlink" title="7.中英文之间自动添加空格"></a>7.中英文之间自动添加空格</h2><p>该功能由 <a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">pangu</a> 提供，在根目录下执行如下命令克隆插件到项目中：</p>
+<h1 id="7-文章置顶"><a href="#7-文章置顶" class="headerlink" title="7. 文章置顶"></a>7. 文章置顶</h1><p>根据top数值排序，越大越往上</p>
+<h1 id="8-中英文之间自动添加空格"><a href="#8-中英文之间自动添加空格" class="headerlink" title="8. 中英文之间自动添加空格"></a>8. 中英文之间自动添加空格</h1><p>该功能由 <a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">pangu</a> 提供，在根目录下执行如下命令克隆插件到项目中：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-pangu.git themes&#x2F;next&#x2F;source&#x2F;lib&#x2F;pangu</span><br></pre></td></tr></table></figure>
 
 <p>在主题配置文件中设置 <code>pangu: true</code> 即可启用该动能。</p>
-<h2 id="8-加入图片"><a href="#8-加入图片" class="headerlink" title="8.加入图片"></a>8.加入图片</h2><p>先下载建立资源文件夹的依赖：</p>
+<h1 id="9-加入图片"><a href="#9-加入图片" class="headerlink" title="9. 加入图片"></a>9. 加入图片</h1><p>先下载建立资源文件夹的依赖：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
@@ -362,15 +372,15 @@
 
 
 <p>如果是后来才打开此功能的，可以自己新建一个与md同名的文件夹，把图片放进去，然后按照文档所给的格式引用图片即可。</p>
-<h2 id="9-文章结束标语"><a href="#9-文章结束标语" class="headerlink" title="9.文章结束标语"></a>9.文章结束标语</h2><p>参考3</p>
-<h2 id="10-图片灯箱"><a href="#10-图片灯箱" class="headerlink" title="10.图片灯箱"></a>10.图片灯箱</h2><p>在根目录下执行以下命令安装相关依赖：</p>
+<h1 id="10-文章结束标语"><a href="#10-文章结束标语" class="headerlink" title="10. 文章结束标语"></a>10. 文章结束标语</h1><p>参考3</p>
+<h1 id="11-图片灯箱"><a href="#11-图片灯箱" class="headerlink" title="11. 图片灯箱"></a>11. 图片灯箱</h1><p>在根目录下执行以下命令安装相关依赖：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-fancybox3 themes&#x2F;next&#x2F;source&#x2F;lib&#x2F;fancybox</span><br></pre></td></tr></table></figure>
 
 <p>在主题配置文件中设置 <code>fancybox: true</code>：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes\next_config.ymlfancybox: true</span><br></pre></td></tr></table></figure>
 
 <p>刷新浏览器即可生效。</p>
-<h2 id="11-文章透明度"><a href="#11-文章透明度" class="headerlink" title="11.文章透明度"></a>11.文章透明度</h2><p>网上的一般修改是 在/source/_data/style.styl中添加</p>
+<h1 id="12-文章透明度"><a href="#12-文章透明度" class="headerlink" title="12. 文章透明度"></a>12. 文章透明度</h1><p>网上的一般修改是 在/source/_data/style.styl中添加</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 添加背景图片</span></span><br><span class="line">body &#123;</span><br><span class="line">      background: url(https:<span class="comment">//source.unsplash.com/random/1600x900?wallpapers);//自己喜欢的图片地址</span></span><br><span class="line">      background-size: cover;</span><br><span class="line">      background-repeat: no-repeat;</span><br><span class="line">      background-attachment: fixed;</span><br><span class="line">      background-position: <span class="number">50</span>% <span class="number">50</span>%;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 修改主体透明度</span></span><br><span class="line">.main-inner &#123;</span><br><span class="line">      background: #fff;</span><br><span class="line">      opacity: <span class="number">0.8</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 修改菜单栏透明度</span></span><br><span class="line">.header-inner &#123;</span><br><span class="line">      opacity: <span class="number">0.8</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>我单添加body一项可以添加背景图片，但是.main-inner项会导致menu栏无法点击，.header-inner可以正常使用，使得menu透明度改变。</p>
@@ -381,11 +391,21 @@
 <p>在next\source\css_schemes\Pisces_sidebar.styl修改rgba背景颜色，最后一位即为透明度设置。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.sidebar&#123;</span><br><span class="line">background: rgba(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, <span class="number">0.2</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.sidebar-inner&#123;</span><br><span class="line">    background: rgba(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, <span class="number">0.8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="12-尾部添加站点运行时间"><a href="#12-尾部添加站点运行时间" class="headerlink" title="12.尾部添加站点运行时间"></a>12.尾部添加站点运行时间</h3><h1 id="3-插件"><a href="#3-插件" class="headerlink" title="3.插件"></a>3.插件</h1><p>每次新建blog文件夹，在”hexo init”后，要下载</p>
+<h1 id="13-尾部添加站点运行时间"><a href="#13-尾部添加站点运行时间" class="headerlink" title="13. 尾部添加站点运行时间"></a>13. 尾部添加站点运行时间</h1><h1 id="14-修改主页文章之间的间距"><a href="#14-修改主页文章之间的间距" class="headerlink" title="14. 修改主页文章之间的间距"></a>14. 修改主页文章之间的间距</h1><h2 id="14-1-修改除第一篇文章之外的其余文章间距"><a href="#14-1-修改除第一篇文章之外的其余文章间距" class="headerlink" title="14.1 修改除第一篇文章之外的其余文章间距"></a>14.1 修改除第一篇文章之外的其余文章间距</h2><p>在 <span class="label primary">themes\next\source\css\_schemes\Gemini\index.styl</span>中，做如下修改：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// When blocks are siblings (homepage).</span><br><span class="line">.post-block + .post-block &#123;</span><br><span class="line">  border-radius: $border-radius;</span><br><span class="line">  // Rewrite shadows &amp; borders because all blocks have offsets.</span><br><span class="line">  box-shadow: $box-shadow;</span><br><span class="line"><span class="deletion">- margin-top: $sidebar-offset;</span></span><br><span class="line"><span class="addition">+ margin-top: 5px;</span></span><br><span class="line"><span class="addition">+ margin-bottom: 5px; </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="14-2-修改第一篇文章的上下间距"><a href="#14-2-修改第一篇文章的上下间距" class="headerlink" title="14.2 修改第一篇文章的上下间距"></a>14.2 修改第一篇文章的上下间距</h2><p>在<span class="label primary">themes\next\source\css\_common\components\post\post-expand.styl</span>文件中，做如下修改：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.posts-expand &#123;</span><br><span class="line">  padding-top: 20px;</span><br><span class="line">  .post-block&#123;</span><br><span class="line"><span class="addition">+  margin-bottom: 5px;</span></span><br><span class="line"><span class="addition">+  margin-top: 5px;</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note info">减号代表删除，加号代表新增。这种改法可能麻烦，若有简便方法，请在下方留言或者点击右下角信息图标，通过DaoVoice 向我留言。</div>
+
+<h1 id="15-插件"><a href="#15-插件" class="headerlink" title="15. 插件"></a>15. 插件</h1><p>每次新建blog文件夹，在”hexo init”后，要下载</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 <p>才能“hexo d”部署。</p>
-<h1 id="4-文章写作"><a href="#4-文章写作" class="headerlink" title="4.文章写作"></a>4.文章写作</h1><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://www.lizenghai.com/archives/45250.html#15 " target="_blank" rel="noopener">1. 快速搭建博客教程</p>
+<h1 id="文章写作"><a href="#文章写作" class="headerlink" title="文章写作"></a>文章写作</h1><h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><p><a href="https://www.lizenghai.com/archives/45250.html#15 " target="_blank" rel="noopener">1. 快速搭建博客教程</p>
 <p><a href=" https://theme-next.org/docs/third-party-services/statistics-and-analytics#LeanCloud-China" target="_blank" rel="noopener">2. statistics-and-analytics</p>
 <p><a href="https://asdfv1929.github.io/2018/01/28/add-the-end/" target="_blank" rel="noopener">3. 文章结语</p>
 <p><a href="http://yearito.cn/posts/hexo-advanced-settings.html" target="_blank" rel="noopener">4. 相关文章推荐</p>
@@ -415,6 +435,9 @@
       <div class="popular-posts-title"><a href="\posts\b354fa37.html" rel="bookmark">博客中添加图片</a></div>
     </li>
     <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\8b1713a3.html" rel="bookmark">hexo文章写作语法</a></div>
+    </li>
+    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\posts\e5e4394c.html" rel="bookmark">Google收录博客</a></div>
     </li>
     <li class="popular-posts-item">
@@ -422,9 +445,6 @@
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\posts\ac603ad1.html" rel="bookmark">樱花飘落特效</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\4a17b156.html" rel="bookmark">Hello World</a></div>
     </li>
   </ul>
 
@@ -529,7 +549,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-评论"><span class="nav-number">1.</span> <span class="nav-text">1.评论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-添加评论"><span class="nav-number">1.1.</span> <span class="nav-text">1. 添加评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-删除评论"><span class="nav-number">1.2.</span> <span class="nav-text">2.删除评论</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2"><span class="nav-number">2.</span> <span class="nav-text">2.</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-symbols-count-time"><span class="nav-number">2.1.</span> <span class="nav-text">1.symbols_count_time:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-related-posts"><span class="nav-number">2.2.</span> <span class="nav-text">2.related_posts:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-post-edit"><span class="nav-number">2.3.</span> <span class="nav-text">3.post_edit:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-local-search"><span class="nav-number">2.4.</span> <span class="nav-text">4.local_search:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-动画"><span class="nav-number">2.5.</span> <span class="nav-text">5.动画</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-文章置顶"><span class="nav-number">2.6.</span> <span class="nav-text">6.文章置顶</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-中英文之间自动添加空格"><span class="nav-number">2.7.</span> <span class="nav-text">7.中英文之间自动添加空格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-加入图片"><span class="nav-number">2.8.</span> <span class="nav-text">8.加入图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-文章结束标语"><span class="nav-number">2.9.</span> <span class="nav-text">9.文章结束标语</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-图片灯箱"><span class="nav-number">2.10.</span> <span class="nav-text">10.图片灯箱</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11-文章透明度"><span class="nav-number">2.11.</span> <span class="nav-text">11.文章透明度</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#12-尾部添加站点运行时间"><span class="nav-number">2.11.1.</span> <span class="nav-text">12.尾部添加站点运行时间</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-插件"><span class="nav-number">3.</span> <span class="nav-text">3.插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-文章写作"><span class="nav-number">4.</span> <span class="nav-text">4.文章写作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#参考文章"><span class="nav-number">4.1.</span> <span class="nav-text">参考文章</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-评论"><span class="nav-number">1.</span> <span class="nav-text">1. 评论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-添加评论"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 添加评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-删除评论"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 删除评论</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-字符统计时间"><span class="nav-number">2.</span> <span class="nav-text">2. 字符统计时间</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-相关文章"><span class="nav-number">3.</span> <span class="nav-text">3. 相关文章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-文章编辑"><span class="nav-number">4.</span> <span class="nav-text">4. 文章编辑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-站内搜索"><span class="nav-number">5.</span> <span class="nav-text">5. 站内搜索</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-动画"><span class="nav-number">6.</span> <span class="nav-text">6. 动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-文章置顶"><span class="nav-number">7.</span> <span class="nav-text">7. 文章置顶</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-中英文之间自动添加空格"><span class="nav-number">8.</span> <span class="nav-text">8. 中英文之间自动添加空格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-加入图片"><span class="nav-number">9.</span> <span class="nav-text">9. 加入图片</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-文章结束标语"><span class="nav-number">10.</span> <span class="nav-text">10. 文章结束标语</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#11-图片灯箱"><span class="nav-number">11.</span> <span class="nav-text">11. 图片灯箱</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#12-文章透明度"><span class="nav-number">12.</span> <span class="nav-text">12. 文章透明度</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#13-尾部添加站点运行时间"><span class="nav-number">13.</span> <span class="nav-text">13. 尾部添加站点运行时间</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#14-修改主页文章之间的间距"><span class="nav-number">14.</span> <span class="nav-text">14. 修改主页文章之间的间距</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#14-1-修改除第一篇文章之外的其余文章间距"><span class="nav-number">14.1.</span> <span class="nav-text">14.1 修改除第一篇文章之外的其余文章间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14-2-修改第一篇文章的上下间距"><span class="nav-number">14.2.</span> <span class="nav-text">14.2 修改第一篇文章的上下间距</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#15-插件"><span class="nav-number">15.</span> <span class="nav-text">15. 插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文章写作"><span class="nav-number">16.</span> <span class="nav-text">文章写作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#参考文章"><span class="nav-number">17.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -548,7 +568,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -561,7 +581,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -604,7 +624,7 @@
             <div>标签云</div>
             <div id="myCanvasContainer" class="widget tagcloud">
               <canvas width="250" height="250" id="resCanvas" style="width=100%">
-              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoDemo/" rel="tag">hexoDemo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoSakura/" rel="tag">hexoSakura</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E4%BC%98%E5%8C%96/" rel="tag">hexo优化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E5%9B%BE%E7%89%87/" rel="tag">hexo图片</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E6%A0%87%E7%AD%BE%E4%BA%91/" rel="tag">hexo标签云</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E7%89%B9%E6%95%88/" rel="tag">hexo特效</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E6%94%B6%E5%BD%95/" rel="tag">博客收录</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" rel="tag">日常学习</a><span class="tag-list-count">1</span></li></ul>
+              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoDemo/" rel="tag">hexoDemo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexoSakura/" rel="tag">hexoSakura</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E4%BC%98%E5%8C%96/" rel="tag">hexo优化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E5%86%99%E4%BD%9C/" rel="tag">hexo写作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E5%9B%BE%E7%89%87/" rel="tag">hexo图片</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E6%A0%87%E7%AD%BE%E4%BA%91/" rel="tag">hexo标签云</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E7%89%B9%E6%95%88/" rel="tag">hexo特效</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E6%94%B6%E5%BD%95/" rel="tag">博客收录</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" rel="tag">日常学习</a><span class="tag-list-count">1</span></li></ul>
               </canvas>
             </div>
          </div>
@@ -642,13 +662,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">72k</span>
+    <span title="站点总字数">74k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:05</span>
+    <span title="站点阅读时长">1:07</span>
 </div>
 
 <!--blog running time-->

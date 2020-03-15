@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bobboss.github.io/"/>
-  <updated>2020-03-14T12:52:10.019Z</updated>
+  <updated>2020-03-15T14:57:07.907Z</updated>
   <id>https://bobboss.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo文章写作语法</title>
+    <link href="https://bobboss.github.io/posts/8b1713a3.html"/>
+    <id>https://bobboss.github.io/posts/8b1713a3.html</id>
+    <published>2020-03-15T08:41:59.000Z</published>
+    <updated>2020-03-15T14:57:07.907Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;本文主要记录在博客写作过程中使用的一些语法，已备后续查询使用。&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo学习" scheme="https://BobBoss.github.io/categories/hexo%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="hexo" scheme="https://BobBoss.github.io/tags/hexo/"/>
+    
+      <category term="hexo写作" scheme="https://BobBoss.github.io/tags/hexo%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>Google收录博客</title>
@@ -161,7 +186,7 @@
     <link href="https://bobboss.github.io/posts/695c83d2.html"/>
     <id>https://bobboss.github.io/posts/695c83d2.html</id>
     <published>2020-02-12T06:45:26.000Z</published>
-    <updated>2020-03-14T18:41:22.827Z</updated>
+    <updated>2020-03-15T19:00:29.276Z</updated>
     
     <summary type="html">
     

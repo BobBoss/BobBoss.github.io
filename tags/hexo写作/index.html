@@ -38,15 +38,13 @@ daovoice('update');
     var CONFIG = {"hostname":"bobboss.github.io","root":"/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":20,"offset":30,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="AV.initialize(&quot;Ua1KiVglC0IEygQA0sPL66e5-gzGzoHsz&quot;, &quot;3Ak5cGQKvePTQCOodgCNRvQE&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
+  <meta name="description" content="Hexo博客探索学习">
 <meta property="og:type" content="website">
-<meta property="og:title" content="热门文章排行榜">
-<meta property="og:url" content="https://bobboss.github.io/top/index.html">
+<meta property="og:title" content="BobBoss Blog">
+<meta property="og:url" content="https://bobboss.github.io/tags/hexo%E5%86%99%E4%BD%9C/index.html">
 <meta property="og:site_name" content="BobBoss Blog">
-<meta property="og:description" content="AV.initialize(&quot;Ua1KiVglC0IEygQA0sPL66e5-gzGzoHsz&quot;, &quot;3Ak5cGQKvePTQCOodgCNRvQE&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
+<meta property="og:description" content="Hexo博客探索学习">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-13T16:34:48.000Z">
-<meta property="article:modified_time" content="2020-03-15T07:47:47.142Z">
 <meta property="article:author" content="BobBoss">
 <meta name="twitter:card" content="summary">
 
@@ -62,8 +60,7 @@ daovoice('update');
   };
 </script>
 
-  <title>热门文章排行榜 | BobBoss Blog
-  </title>
+  <title>标签: hexo写作 | BobBoss Blog</title>
   
 
 
@@ -207,118 +204,55 @@ daovoice('update');
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
           <div class="content">
             
 
-  <div class="posts-expand">
-    
-    
-    
-    <div class="post-block" lang="zh-CN">
-      <header class="post-header">
-
-<h2 class="post-title" itemprop="name headline">热门文章排行榜
-</h2>
-
-<div class="post-meta">
   
-
-</div>
-
-</header>
+  
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <h2 class="collection-header">hexo写作
+          <small>标签</small>
+        </h2>
+      </div>
 
       
-      
-      
-      <div class="post-body">
-          <div id="top"></div>
-<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("Ua1KiVglC0IEygQA0sPL66e5-gzGzoHsz", "3Ak5cGQKvePTQCOodgCNRvQE");</script>
-<script type="text/javascript">
-  var time=0
-  var title=""
-  var url=""
-  var query = new AV.Query('Counter');
-  query.notEqualTo('id',0);
-  query.descending('time');
-  query.limit(15);
-  query.find().then(function (todo) {
-    for (var i=0;i<15;i++){
-      var result=todo[i].attributes;
-      time=result.time;
-      title=result.title;
-      url=result.url;
-      var content="<p>"+"<font color=#a7a7e5>"+"😍文章被阅读: "+"</font>"+"<font color=#f1a8ce>"+time+"次  "+"</font>"+"<a href='"+"https://bobboss.github.io"+url+"'>"+title+"</a>"+"</p>";
-      document.getElementById("top").innerHTML+=content
-    }
-  }, function (error) {
-    console.log("error");
-  });
-</script>
+    <div class="collection-year">
+      <h2 class="collection-header">2020</h2>
+    </div>
 
-<div id="rank"></div>
-<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("填你的appid", "填你的appkey");</script>
-<script type="text/javascript">
-  var time=0
-  var title=""
-  var url=""
-  var query = new AV.Query('Counter');
-  query.notEqualTo('id',0);
-  query.descending('time');
-  query.limit(15);
-  query.find().then(function (todo) {
-    for (var i=0;i<15;i++){
-      var result=todo[i].attributes;
-      time=result.time;
-      title=result.title;
-      url=result.url;
-      var content="<p>"+"<font color=#a7a7e5>"+"🌸 Time number: "+"</font>"+"<font color=#f1a8ce>"+time+"次  "+"</font>"+"<a href='"+"https://leflacon.github.io"+url+"'>"+title+"</a>"+"</p>";
-      document.getElementById("rank").innerHTML+=content
-    }
-  }, function (error) {
-    console.log("error");
-  });
-</script>
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-<div id="top"></div>
-<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("Ua1KiVglC0IEygQA0sPL66e5-gzGzoHsz", "3Ak5cGQKvePTQCOodgCNRvQE");</script>
-<script type="text/javascript">
-  var time=0
-  var title=""
-  var url=""
-  var query = new AV.Query('Counter');
-  query.notEqualTo('id',0);
-  query.descending('time');
-  query.limit(15);
-  query.find().then(function (todo) {
-    for (var i=0;i<15;i++){
-      var result=todo[i].attributes;
-      time=result.time;
-      title=result.title;
-      url=result.url;
-      var content="<p>"+"<font color=#a7a7e5>"+"🤓 文章被阅读: "+"</font>"+"<font color=#f1a8ce>"+time+"次 😍 "+"</font>"+"<a href='"+"https://bobboss.github.io"+url+"'>"+title+"</a>"+"</p>";
-      document.getElementById("top").innerHTML+=content
-    }
-  }, function (error) {
-    console.log("error");
-  });
-</script>
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-03-15T16:41:59+08:00"
+              content="2020-03-15">
+          03-15
+        </time>
       </div>
       
-      
-      
-    </div>
-    
 
-    
-    
-    
+      <h3 class="post-title">
+          <a class="post-title-link" href="/posts/8b1713a3.html" itemprop="url">
+            <span itemprop="name">hexo文章写作语法</span>
+          </a>
+      </h3>
+
+    </header>
+  </article>
+
+    </div>
   </div>
+  
+  
+  
+
+  
+
 
 
           </div>
