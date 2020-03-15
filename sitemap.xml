@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bobboss.github.io/top/index.html</loc>
+    
+    <lastmod>2020-03-15T07:47:47.142Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bobboss.github.io/posts/695c83d2.html</loc>
     
     <lastmod>2020-03-14T18:41:22.827Z</lastmod>
@@ -23,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://bobboss.github.io/posts/b354fa37.html</loc>
+    <loc>https://bobboss.github.io/posts/3af78132.html</loc>
     
     <lastmod>2020-03-14T12:52:10.022Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bobboss.github.io/posts/3af78132.html</loc>
+    <loc>https://bobboss.github.io/posts/b354fa37.html</loc>
     
     <lastmod>2020-03-14T12:52:10.022Z</lastmod>
     
@@ -89,13 +96,6 @@
     <loc>https://bobboss.github.io/tags/index.html</loc>
     
     <lastmod>2020-03-10T14:57:08.745Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bobboss.github.io/top/index.html</loc>
-    
-    <lastmod>2020-02-13T16:44:04.022Z</lastmod>
     
   </url>
   
