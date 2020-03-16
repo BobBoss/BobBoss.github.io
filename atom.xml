@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bobboss.github.io/"/>
-  <updated>2020-03-15T14:57:07.907Z</updated>
+  <updated>2020-03-16T08:07:44.005Z</updated>
   <id>https://bobboss.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>DaoVoice在线聊天</title>
+    <link href="https://bobboss.github.io/posts/1c6bf4a3.html"/>
+    <id>https://bobboss.github.io/posts/1c6bf4a3.html</id>
+    <published>2020-03-16T06:18:32.000Z</published>
+    <updated>2020-03-16T08:07:44.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;使用DaoVoice沟通工具，实现在线聊天功能。&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo学习" scheme="https://BobBoss.github.io/categories/hexo%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="hexo" scheme="https://BobBoss.github.io/tags/hexo/"/>
+    
+      <category term="Daovoice聊天" scheme="https://BobBoss.github.io/tags/Daovoice%E8%81%8A%E5%A4%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo文章写作语法</title>
     <link href="https://bobboss.github.io/posts/8b1713a3.html"/>
     <id>https://bobboss.github.io/posts/8b1713a3.html</id>
     <published>2020-03-15T08:41:59.000Z</published>
-    <updated>2020-03-15T14:57:07.907Z</updated>
+    <updated>2020-03-16T04:48:36.757Z</updated>
     
     <summary type="html">
     
@@ -46,11 +71,13 @@
     <link href="https://bobboss.github.io/posts/e5e4394c.html"/>
     <id>https://bobboss.github.io/posts/e5e4394c.html</id>
     <published>2020-03-13T16:38:31.000Z</published>
-    <updated>2020-03-14T12:52:10.019Z</updated>
+    <updated>2020-03-16T05:16:34.935Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;在不绑定自己域名的情况下，使Google浏览器收录自己的博客。&lt;/p&gt;
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;在不绑定自己域名的情况下，使Google浏览器收录自己的博客。&lt;/p&gt;
+          &lt;/div&gt;
     
     </summary>
     
@@ -69,11 +96,13 @@
     <link href="https://bobboss.github.io/posts/14b0b17.html"/>
     <id>https://bobboss.github.io/posts/14b0b17.html</id>
     <published>2020-03-11T13:25:48.000Z</published>
-    <updated>2020-03-14T12:52:10.021Z</updated>
+    <updated>2020-03-16T05:26:24.034Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;在侧边栏添加标签云特效&lt;/p&gt;
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;在侧边栏添加 标签云 特效。&lt;/p&gt;
+          &lt;/div&gt;
     
     </summary>
     
@@ -85,6 +114,8 @@
     
       <category term="hexo标签云" scheme="https://BobBoss.github.io/tags/hexo%E6%A0%87%E7%AD%BE%E4%BA%91/"/>
     
+      <category term="hexo特效" scheme="https://BobBoss.github.io/tags/hexo%E7%89%B9%E6%95%88/"/>
+    
   </entry>
   
   <entry>
@@ -92,11 +123,13 @@
     <link href="https://bobboss.github.io/posts/ac603ad1.html"/>
     <id>https://bobboss.github.io/posts/ac603ad1.html</id>
     <published>2020-03-11T11:21:27.000Z</published>
-    <updated>2020-03-14T12:52:10.023Z</updated>
+    <updated>2020-03-16T05:22:43.465Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;添加“樱花飘落”特效&lt;/p&gt;
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;添加“樱花飘落”特效。&lt;/p&gt;
+          &lt;/div&gt;
     
     </summary>
     
@@ -117,7 +150,7 @@
     <link href="https://bobboss.github.io/posts/3af78132.html"/>
     <id>https://bobboss.github.io/posts/3af78132.html</id>
     <published>2020-03-09T17:50:45.000Z</published>
-    <updated>2020-03-14T12:52:10.022Z</updated>
+    <updated>2020-03-16T05:28:50.978Z</updated>
     
     <summary type="html">
     
@@ -163,11 +196,13 @@
     <link href="https://bobboss.github.io/posts/4a17b156.html"/>
     <id>https://bobboss.github.io/posts/4a17b156.html</id>
     <published>2020-02-12T11:48:48.842Z</published>
-    <updated>2020-03-14T12:52:10.020Z</updated>
+    <updated>2020-03-16T05:19:09.758Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;Hexo first post demo.&lt;/p&gt;
+          &lt;/div&gt;
     
     </summary>
     
@@ -186,11 +221,13 @@
     <link href="https://bobboss.github.io/posts/695c83d2.html"/>
     <id>https://bobboss.github.io/posts/695c83d2.html</id>
     <published>2020-02-12T06:45:26.000Z</published>
-    <updated>2020-03-15T19:00:29.276Z</updated>
+    <updated>2020-03-16T05:57:30.434Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;用于 hexo + nexT 开发测试&lt;/p&gt;
+      &lt;div class=&quot;note primary no-icon&quot;&gt;
+            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;  &lt;/i&gt;&amp;nbsp; &amp;nbsp;用于 hexo + nexT 主题配置、开发测试记录。&lt;/p&gt;
+          &lt;/div&gt;
     
     </summary>
     
