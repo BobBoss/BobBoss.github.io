@@ -1226,7 +1226,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ecffe9;
+  background: #ff98cf;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2799,10 +2799,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-}
-.header-inner {
   opacity: 0.9;
+}
+/*
+//修改菜单栏、文章主体、侧边栏、评论透明度
+.header-inner {
+      opacity: 0.9;
 }
 .content-wrap {
-  opacity: 0.9;
-}
+      //background: white;
+      opacity: 0.9;
+  }
+*/
