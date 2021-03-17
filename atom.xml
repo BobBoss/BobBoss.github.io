@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bobboss.github.io/"/>
-  <updated>2021-03-17T15:07:04.822Z</updated>
+  <updated>2020-07-13T18:30:39.931Z</updated>
   <id>https://bobboss.github.io/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://bobboss.github.io/posts/d87f7e0c.html"/>
-    <id>https://bobboss.github.io/posts/d87f7e0c.html</id>
-    <published>2021-03-17T14:53:30.000Z</published>
-    <updated>2021-03-17T15:07:04.822Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;note primary no-icon&quot;&gt;
-            &lt;p&gt;&lt;i class=&quot;fa fa-cog fa-spin&quot; &gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;git 代理错误。&lt;/p&gt;
-          &lt;/div&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>深度学习-激活函数</title>
